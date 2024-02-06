@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    line-height: 45px;
+    text-align: center;
+}
+
+.styleHeader nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.styleHeader nav ul li {
+    float: left;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: white;
+}
+
+.styleHeader nav ul li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.4em 0.5em;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.styleHeader a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.socialMedias {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 74px;
+    height: 74px;
+}
+
+.socialMedias div {
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.socialMedias a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    margin: 5px 5px;
+}
+
+.socialMedias div:hover {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.styleHeader {
+    background-color: black;
+    overflow: auto;
+    color: white;
+}
+
+.styleContent{
+    background-image:url("IMG/fl_fr.jpg");
+}
+
+.styleFooter {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+}
+
+
+
+
+#articles {
+    background-color: white;
+    color: white;
+    overflow: auto;
+    margin: 2% 10%;
+    
+}
+
+.innerArticles {
+    background-color: black;
+    margin: 5px;
+
+    position: relative;
+    border-radius: 10px;
+}
+
+.innerArticles a {
+    display: flex;
+}
+
+
+
+
+.innerArticles .description {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+
+
+.hoverDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    display: none;
+    border-radius: 10px;
+}
+
+#articles .categorie {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    right: 5px;
+}
+
+
+
+.leftPart{
+    padding-left: 10px;
+    padding-top: 70px;
+}
